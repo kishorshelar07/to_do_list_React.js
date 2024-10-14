@@ -6,12 +6,12 @@ import TaskManager from "./TaskManager";
 
 function App() {
   const { tasks, addTask, deleteHandler } = TaskManager();
-  // Destructure the logic returned from `TaskManager` to get `tasks`, `addTask`, and `deleteHandler`.
+  //  returned from `TaskManager` to get `tasks`, `addTask`, and `deleteHandler`.
 
   return (
     <div className="App">
-      <h1>To-Do List</h1>
-      
+      <h1>To-Do List</h1><br/>
+
       <TaskInput addTask={addTask} />
       {/* Render `TaskInput` component and pass `addTask` for adding new tasks. */}
 
