@@ -28,8 +28,8 @@ function TaskInput({ addTask, order }) {
 
     e.preventDefault(); // Prevent default form submission behavior
     if (task.text.trim() === "") return;   // Check if the task text is empty or consists only of spaces. If so, return early and do nothing.
-    addTask(task.text); // Call the `addTask` function (received as a prop) to add the task.
-                        // It passes `task.text` as an argument to the parent component.
+    addTask(task.text);     // Call the `addTask` function (received as a prop) to add the task.
+                            // It passes `task.text` as an argument to the parent component.
     setTask({ text: "" });  // After submission, reset the `task.text` field to an empty string to clear the input.
 
 

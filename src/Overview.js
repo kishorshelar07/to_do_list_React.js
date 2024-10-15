@@ -1,5 +1,5 @@
 import React from 'react';
-import './Overview.css'; // Optional: Add styles for the task list
+import './Overview.css'; 
 
 // Define the Overview component that takes 'tasks' and 'handleDelete' as props
 function Overview({ tasks, handleDelete }) {
